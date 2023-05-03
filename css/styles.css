@@ -141,4 +141,8 @@ main .section-contact {
   align-items: center;
 }
 
-footer
+footer {
+  text-align: center;
+  background: #fff;
+  padding: 5px;
+}
