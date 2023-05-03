@@ -8,3 +8,40 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.cta {
+  margin: 15px;
+  padding: 10px 20px;
+  color: #fff;
+  background: #57BB6B;
+  border-radius: 15px;
+  text-decoration: none;
+  font-family: 'Maven Pro';
+  font-size: 15pt;
+}
+
+header {
+  padding: 30px;
+  background: url(../img/bg-fruit.png);
+  background-size: cover;
+  border-top: 7px solid #57BB6B;
+  text-align: center;
+}
+
+header .box-titel {
+  padding: 35px 40px;
+  background: rgba(255, 255, 255, 0.90);
+  font-family:'Quattrocento';
+  font-size: 14pt;
+}
+
+header nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cta-light {
+  background: #fff;
+  color: #57BB6B;
+}
