@@ -20,6 +20,11 @@ img {
   font-size: 15pt;
 }
 
+h2 {
+  font-family: 'Maven Pro';
+  font-size: 2pt;
+}
+
 header {
   padding: 30px;
   background: url(../img/bg-fruit.png);
@@ -44,4 +49,10 @@ header nav {
 .cta-light {
   background: #fff;
   color: #57BB6B;
+}
+
+.section-intro {
+  padding: 50px;
+  background: #fff;
+  text-align: center;
 }
