@@ -22,7 +22,18 @@ img {
 
 h2 {
   font-family: 'Maven Pro';
-  font-size: 2pt;
+  font-size: 22pt;
+}
+
+.container-img {
+  margin: 40px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container-img img {
+  width: 27px;
 }
 
 header {
@@ -46,7 +57,7 @@ header nav {
   align-items: center;
 }
 
-.cta-light {
+header .cta-light {
   background: #fff;
   color: #57BB6B;
 }
