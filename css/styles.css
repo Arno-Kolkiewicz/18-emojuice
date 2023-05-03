@@ -62,8 +62,83 @@ header .cta-light {
   color: #57BB6B;
 }
 
-.section-intro {
+main .section-intro {
   padding: 50px;
   background: #fff;
   text-align: center;
+  font-family: 'Quattrocento';
 }
+
+main .section-produit {
+  padding: 30px;
+  color: #fff;
+  background: #57BB6B;
+  text-align: center;
+}
+
+main .section-produit .card {
+  margin: 30px 0 0 0;
+  padding: 20px;
+  color: black;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-shadow: #00000070 0px 0px 16px;
+}
+
+main .section-produit .card h3 {
+  margin: 10px 0 0 0;
+  font-family: 'Sriracha';
+  font-size: 25pt;
+}
+
+main .section-produit .card p {
+  margin: 0px;
+  font-family: 'Quattrocento';
+  font-size: 18px;
+  opacity: 0.5;
+}
+
+main .section-produit .card a{
+  font-family: 'Maven Pro';
+  font-weight: bold;
+  color: black;
+}
+
+main .section-produit .card img {
+  margin-top: 40px ;
+  width: 80px;
+}
+
+main .section-produit .card .img-transform {
+  transform: scaleX(-1);
+}
+
+main .section-produit .card-yellow {
+  background: #FFF8D7;
+}
+
+main .section-produit .card-green {
+  background: #C4F2AD;
+}
+
+main .section-produit .card-brown {
+  background: #D3C6B2;
+}
+
+main .section-produit .card-pink {
+  background: #F7A4B4;
+}
+
+main .section-contact {
+  padding: 50px;
+  background: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer
